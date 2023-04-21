@@ -1,0 +1,32 @@
+{
+  "id": "53cfbe4a-b398-4a30-aed6-11f0742d3856",
+  "name": "Win-Waste BC-2-ODS v.2",
+  "publisher": "RSM US LLP",
+  "version": "2.20.4.18",
+  "brief":  "Sync data from Business Central to the Azure storage",
+  "description": "Extension to configure and manage the BC to ODS process",
+  "privacyStatement": "Http://RSMUS.com",
+  "EULA": "Http://RSMUS.com",
+  "help": "Http://RSMUS.com",
+  "contextSensitiveHelpUrl": "https://www.RSMUS.com",
+  "url": "http://www.RSMUS.com",
+  "logo": "./images/logo.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "21.0.0.0",
+  "application": "21.1.0.0",
+  "idRanges": [
+    {
+      "from": 82660,
+      "to": 82680
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "target": "Cloud",
+  "runtime": "10.0",
+  "applicationInsightsConnectionString": "InstrumentationKey=3edf0b26-709a-40e5-8517-9e6d1c83394a;IngestionEndpoint=https://southcentralus-3.in.applicationinsights.azure.com/;LiveEndpoint=https://southcentralus.livediagnostics.monitor.azure.com/"
+}
